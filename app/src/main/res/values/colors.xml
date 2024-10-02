@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="your_primary_color">#6200EE</color> <!-- Un ejemplo de color -->
+    <color name="your_primary_dark_color">#3700B3</color> <!-- Un ejemplo de color oscuro -->
+    <color name="your_accent_color">#03DAC5</color> <!-- Un ejemplo de color de acento -->
+</resources>

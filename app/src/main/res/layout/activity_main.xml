@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/drag"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="381dp"
+            android:layout_height="69dp"
+            android:textSize="24sp"
+            android:textColorHint="@color/your_primary_color"
+            android:text="Bienvenido"
+            android:textColor="@color/your_primary_color" />
+
+        <EditText
+            android:id="@+id/etCantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/your_accent_color"
+            android:hint="Ingresa cantidad" />
+
+        <Button
+            android:id="@+id/btnVerSaldo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Saldo" />
+
+        <Button
+            android:id="@+id/btnIngresarDinero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresar Dinero" />
+
+        <Button
+            android:id="@+id/btnSacarDinero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sacar Dinero" />
+
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salir" />
+    </LinearLayout>
+</layout>

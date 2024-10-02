@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Individual7KT" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/your_primary_color</item>
+        <item name="colorPrimaryDark">@color/your_primary_dark_color</item>
+        <item name="colorAccent">@color/your_accent_color</item>
+        <!-- Otros elementos de personalización del tema -->
+    </style>
+
+</resources>
